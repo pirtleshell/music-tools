@@ -45,3 +45,22 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+.container {
+  text-align: center;
+  max-width: 100%;
+  margin: 5px;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+/* Universally available UI elements */
+.backButton {
+  position: absolute;
+}

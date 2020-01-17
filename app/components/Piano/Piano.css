@@ -1,0 +1,35 @@
+.backButton {
+  position: absolute;
+}
+
+.piano {
+  display: flex;
+  overflow-y: scroll;
+  padding-top: 36px;
+}
+
+.pianoKey {
+  height: 350px;
+  min-width: 60px;
+  max-width: 60px;
+  background-color: #fff;
+  border: solid 1px #000;
+}
+
+.pianoKey.black {
+  background-color: #000;
+  height: 225px;
+  min-width: 40px;
+  max-width: 40px;
+  border: 0;
+}
+
+.pianoKey:hover {
+  border: solid 2px #000;
+}
+
+.pianoNoteName {
+  color: #ddd;
+  margin-top: -32px;
+  padding-top: 4px;
+}
